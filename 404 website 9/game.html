@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+
+<body>
+    <div class="loading-screen">
+        <div class="liquid"></div>
+    </div>
+    <div id="game-container" class="container hidden">
+        
+    </div>
+    <div id="game-over-popup" class="popup hidden">
+        <div class="popup-content">
+            <h2 style="margin-bottom: 5px;">Breakfast Saved!</h2>
+            <p style="margin-top: 0px;">Wow! Thanks for helping Uncle keep things tidy!</p>
+            <p>As a token of our appreciation, here's a special voucher:</p>
+            <p>Final Score: <span id="final-score"></span></p>
+            <img class="voucherimg" src="static/voucher.png" alt="">
+            <br>
+            <!-- <p id="voucher" class="hidden">Congratulations! You've earned a special voucher just for you!
+                <br><img class="vo ucherimg" src="static/voucher.png" alt="">
+            </p> -->
+            
+            <!-- <button id="play-again">Play Again</button> -->
+            <!-- <button id="return-home">Return</button> -->
+            
+            <button id="return-home">Return</button>
+
+        </div>
+    </div>
+    
+    
+
+    <div id="game-over-popup-default" class="popup hidden">
+        <div class="popup-content">
+            <div class="info-icon">
+                <div class="circle">
+                    <span class="icon">ℹ️</span>
+                </div>
+            </div>
+            <h2 style="margin-bottom: 5px;">Breakfast ruined!</h2>
+            <p style="margin-top: 0px;">Oh no! Uncle had to clean up all day because of the mess...</p>
+            <p>Final Score: <span id="final-score-default"></span></p>
+            <p>Can you give another try and help Uncle out?</p>
+            
+            <button id="play-again">Play Again</button>
+            <button id="return-home-default">Return</button>
+        </div>
+    </div>
+    
+    
+    
+    
+
+    <script src="game.js"></script>
+</body>
+
+</html>

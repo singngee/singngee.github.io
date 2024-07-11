@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Modak&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <img id="logo" src="static/YaKunLogo.png" alt="">
+    </nav>
+    <div class="mainContainer">
+        <div class="error-and-toaster">
+            <div class="container" id="error-container">
+                <h1 class="mainTitle">404</h1>
+                <h2>Page Not Found</h2>
+                <p>Oops! It looks like this page is toast.</p>
+            </div>
+            <div class="ag-page-404">
+                <div class="ag-toaster-wrap">
+                    <div class="ag-toaster">
+                        <div class="ag-toaster_back"></div>
+                        <div class="ag-toaster_front">
+                            <div class="js-toaster_lever ag-toaster_lever"></div>
+                        </div>
+                        <div class="ag-toaster_toast-handler">
+                            <div class="ag-toaster_shadow"></div>
+                            <div class="js-toaster_toast ag-toaster_toast js-ag-hide"></div>
+                        </div>
+                    </div>
+                    <canvas id="canvas-404" class="ag-canvas-404"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="game-container">
+            <button id="gameButton">Play a Game</button>
+            <p>Or go back to our <a href="https://yakun.com/">homepage</a>.</p>
+        </div>
+    </div>
+</body>
+
+</html>
